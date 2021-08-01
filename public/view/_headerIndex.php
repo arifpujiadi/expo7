@@ -4,7 +4,7 @@
             <div class="col-md-2 col-sm-2 col-xs-12 boxOut-logoHeader">
                 <div class="box-logoHeader">
                     <div class="boxOut-normalTransform center inherit">
-                        <a href="index.php">
+                        <a href="home.php">
                             <img class="" src="../img/icon/header-logo.png">
                         </a>
                     </div>
@@ -38,7 +38,7 @@
 
                                         <div class="row">
                                             <div class="hidden-lg hidden-md hidden-sm col-xs-12 boxOut-sideMenu flex">
-                                                <a href="index.php">
+                                                <a href="home.php">
                                                     <img src="../img/icon/header-logo.png">
                                                 </a>
                                             </div>
@@ -166,91 +166,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row hidden-xs">
-        <div class="col-md-12 col-sm-12 col-xs-12 boxOut-headerWhite">
-            <div class="container-header-2">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div id="nav">
-                        <div class="navbar navbar-default navbar-static navbar-edit2" style="margin-bottom: 0px;">
-                            <div class="navbar-header page-scroll toogle-padding">
-                                <button type="button" class="navbar-toggle offcanvas-toggle navbar-toggle-edit pull-right" data-toggle="offcanvas" data-target="#menu2" style="float:left;">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span>
-                                        <span class="icon-bar" style="color: white !important;"></span>
-                                        <span class="icon-bar"></span>
-                                        <span class="icon-bar"></span>
-                                    </span>
-                                </button>
-                                <a class="navbar-brand header-brand-2">Menu 2</a>
-                            </div>
-
-
-                            <div id="menu2" class="navbar-offcanvas navbar-offcanvas-touch">
-
-                                <div class="row">
-                                    <div class="hidden-lg hidden-md hidden-sm col-xs-12 boxOut-sideMenu flex">
-                                        <a href="index.php">
-                                            <img src="../img/icon/header-logo.png">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="hidden-lg hidden-md hidden-sm col-xs-12 boxOut-titleMenu">
-                                        <div class="col-xs-12 box-titleMenu2 font-oswald">
-                                            Menu 2
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <ul class="nav navbar-nav editUl-headerMenu2 editUl-headerMenu2-biasa font-Roboboto-Bold">
-                                    <li class="header-navbar-li tab-title active">
-                                        <a href="#">
-                                            <div class="menu2-border">
-                                                <img class="menu2-1" src="../img/icon/menu2-1.png">
-                                                Get Started
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="header-navbar-li tab-title">
-                                        <a href="#">
-                                            <div class="menu2-border">
-                                                <img class="menu2-2" src="../img/icon/menu2-2.png">
-                                                News
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="header-navbar-li tab-title">
-                                        <a href="howTo.php">
-                                            <div class="menu2-border">
-                                                <img class="menu2-3" src="../img/icon/menu2-3.png">
-                                                How to (3 Simple Steps)
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="header-navbar-li tab-title">
-                                        <a href="instruction.php">
-                                            <div class="menu2-border">
-                                                <img class="menu2-4" src="../img/icon/menu2-4.png">
-                                                Full Instruction
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="header-navbar-li tab-title">
-                                        <a href="questionAnswer.php">
-                                            <div class="menu2-border">
-                                                <img class="menu2-5" src="../img/icon/menu2-5.png">
-                                                Question & Answer
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
                             </div>
                         </div>
                     </div>

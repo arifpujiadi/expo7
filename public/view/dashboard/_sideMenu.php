@@ -349,7 +349,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
-                            <button type="button" class="btn button-sideMenu font-RobotoCondensed" onclick='window.location.assign("../index.php")'>LOG OUT</button>
+                            <button type="button" class="btn button-sideMenu font-RobotoCondensed" onclick='window.location.assign("../home.php")'>LOG OUT</button>
                         </div>
                     </div>
                 </div>
