@@ -1,0 +1,337 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-image: url('../../img/icon/content-background-3.png');
+    background-size: 100% auto;
+}
+
+.container-padding{
+    margin-top: 133px;
+}
+
+.background-container{
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.boxOut-map{
+    height: 420px;
+    background-color: #e5e3df;
+}
+
+.arrow-map {
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 50px 80px 0 80px;
+    border-color: transparent #ffffff transparent #ffffff;
+}
+
+.boxOut-triangle{
+    height: 50px;
+}
+
+.boxOut-triangle > .col-md-5{
+    background-color: white;
+    height: inherit;
+}
+
+.gm-bundled-control-on-bottom{
+    bottom: 150px !important;
+}
+
+.boxOut-contactTitle{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.boxOut-contactTitle > .row:first-child > .col-md-12{
+    border-bottom: 2px solid #114F94;
+    padding-bottom: 10px;
+    font-size: 22px;
+    color: #114F94;
+}
+
+.boxOut-contactTitle > .row:last-child > .col-md-12{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: black;
+}
+
+.boxOut-listLeft{
+    padding-right: 50px;
+}
+
+.boxOut-listLeftContact{
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.imgContact-1{
+    width: 13px;
+    height: 18px;
+}
+
+.imgContact-2{
+    width: 14px;
+    height: 14px;
+}
+
+.imgContact-3{
+    width: 15px;
+    height: 10px;
+}
+
+.imgContact-4{
+    width: 13px;
+    height: 16px;
+}
+
+.imgContact-5{
+    width: 15px;
+    height: 10px;
+}
+
+.boxOut-titleContact-Red{
+    color: #E62129;
+    margin-bottom: 5px;
+}
+
+.boxOut-titleContact-black{
+    margin-bottom: 5px;
+}
+
+.boxOut-contactLeft-button{
+    margin-bottom: 15px;
+}
+
+.boxOut-contactLeft-button > .col-md-6:first-child{
+    padding-right: 6px;
+}
+
+.boxOut-contactLeft-button > .col-md-6:last-child{
+    padding-left: 6px;
+}
+
+.button-online{
+    margin: 0px;
+    background-color: #33CC33;
+    color: white !important;
+    width: 100%;
+    font-size: 13px;
+    height: 25px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.button-online:hover, .button-online:focus{
+    background-color: #2BAD2B !important;
+}
+
+.button-offline{
+    margin: 0px;
+    background-color: #EEEEEF;
+    color: black !important;
+    width: 100%;
+    font-size: 13px;
+    height: 25px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    cursor: auto;
+}
+
+.button-offline:hover, .button-online:focus{
+    background-color: #EEEEEF !important;
+}
+
+.button-contact-Social{
+    margin: 0px;
+    background-color: #E62129;
+    color: black !important;
+    width: 28px;
+    font-size: 13px;
+    height: 28px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.button-contact-Social:hover, .button-contact-Social:focus{
+    background-color: #BF1C22 !important;
+}
+
+.imgContact-facebook{
+    width: 7px;
+    height: 14px;
+}
+
+.imgContact-twitter{
+    width: 15px;
+    height: 12px;
+}
+
+
+
+
+.boxOut-listRight{
+    padding-left: 50px;
+    border-left: 2px solid #DCDDDD;
+}
+
+.boxOut-listRightContact{
+    font-size: 13px;
+}
+
+.boxOut-rightTitle{
+    color: #114F94;
+    margin-bottom: 10px;
+}
+
+.field-contact-right, .field-contact-right:focus{
+    height:27px;
+    border-radius: 0px;
+    padding: 0px 5px;
+    background-color: white;
+    border: 1px solid #DCDDDD;
+    box-shadow: none;
+    color: #757475;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.editTextArea{
+    display: block;
+    width: 100%;
+    height: 139px !important;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #DCDDDD;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    resize: none;
+    margin-bottom: 30px;
+}
+
+.boxOut-buttonRight-Red{
+    color: #E62129;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+
+.button-kirim{
+    margin: 0px;
+    background-color: white;
+    color: #E62129 !important;
+    width: 100%;
+    font-size: 13px;
+    height: 30px;
+    border-radius: 0px;
+    padding: 0px;
+    text-align: center;
+    border: 2px solid #E62129;
+    border-right: 40px solid #E62129;
+}
+
+.button-kirim:hover, .button-kirim:focus{
+    background-color: #E62129 !important;
+    color: white !important;
+}
+
+.imgContact-arrow{
+    width: 13px;
+    height: 17px;
+    right: 10px;
+    position: absolute;
+    margin-right: -35px;
+}
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .boxOut-triangle {
+        height: 65px;
+    }
+
+    .arrow-map {
+        border-width: 50px 60px 0 60px;
+    }
+
+    .boxOut-contactTitle {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .background-container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #rc-imageselect, .g-recaptcha {
+        transform:scale(0.45) !important;
+        -webkit-transform:scale(0.45) !important;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .boxOut-triangle {
+        display: none;
+    }
+
+    .boxOut-listLeft {
+        padding-right: 0px;
+    }
+
+    .boxOut-listRight {
+        padding-left: 0px;
+        border-left: none;
+        border-top: 2px solid #DCDDDD;
+        margin-top: 20px;
+        padding-top: 35px;
+    }
+
+    .boxOut-buttonRight-Red {
+        padding-left: 0px;
+    }
+
+    #rc-imageselect, .g-recaptcha {
+        transform:scale(0.77) !important;
+        -webkit-transform:scale(0.77) !important;
+        transform-origin:0 0 !important;
+        -webkit-transform-origin:0 0 !important;
+    }
+
+}
+
+

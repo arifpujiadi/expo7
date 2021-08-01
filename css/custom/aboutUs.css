@@ -1,0 +1,268 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    /*    background-image: url('../../img/icon/content-background.png');
+        background-size: 100% auto;*/
+    background-color: white;
+}
+
+.container-padding{
+    padding-top: 133px;
+}
+
+.boxOut-about-1{
+    margin-bottom: 10px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.boxOut-about-2{
+    height: 360px;
+    overflow: hidden;
+}
+
+.boxOut-about-1 .box-about-55{
+    padding-right: 30px;
+    border-bottom: 7px solid #E62129;
+}
+
+.boxOut-about-2 .box-about-55{
+    padding-left: 30px;
+    border-top: 7px solid #E62129;
+}
+
+.boxOut-about-1 .box-about-45{
+    border-bottom: 3px solid #00A2E9;
+}
+
+.boxOut-about-2 .box-about-45{
+    border-top: 3px solid #00A2E9;
+
+}
+
+.boxOut-about-2 .boxOut-overviewText {
+    float: right;
+}
+
+.boxOut-about-2 .box-titleAbout{
+    width: 420px;
+    float: right;
+}
+
+.box-about-55{
+    width: 55%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    background-color: #EEEEEF;
+    height: 100%;
+}
+
+.box-about-45{
+    width: 45%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+
+    background-color: #EEEEEF;
+    padding: 25px 55px;;
+    height: 100%;
+}
+
+.boxOut-aboutImg{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: inherit;
+}
+
+.boxOut-purpleTransparent-1{
+    height: inherit;
+    background-color: rgba(47, 49, 139, 0.5); 
+    width: 170px; 
+    position: absolute; 
+    right: 0;
+}
+
+.boxOut-purpleTransparent-2{
+    height: inherit;
+    background-color: rgba(47, 49, 139, 0.5); 
+    width: 170px; 
+    position: absolute; 
+    left: 0;
+}
+
+.boxOut-titleAbout{
+    display: inline-block;
+    font-size: 22px;
+    color: #114F94;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #E62129;
+}
+
+.boxOut-overviewText{
+    width: 420px;
+    max-height: 235px;
+    font-size: 13px;
+    text-align: justify;
+    overflow: hidden;
+}
+
+.boxOut-vision{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+@media (max-width:1366px) {
+    
+    .container-padding {
+        padding-top: 95px;
+    }
+    
+}
+
+@media (max-width:1200px) {
+
+    .container-padding {
+        padding-top: 80px;
+    }
+
+    .boxOut-overviewText{
+        width: auto;
+        max-height: 235px;
+        font-size: 13px;
+    }
+
+    .boxOut-about-2 .box-titleAbout{
+        width: auto;
+        float: left;
+    }
+
+    .boxOut-about-2 .boxOut-overviewText {
+        float: left;
+    }
+
+}
+
+@media (max-width:992px) {
+
+    .container-padding {
+        padding-top: 75px;
+    }
+
+    .boxOut-about-1{
+        height: 275px;
+    }
+
+    .boxOut-about-2{
+        height: 275px;
+    }
+
+    .boxOut-purpleTransparent-1{
+        width: 125px;
+    }
+
+    .boxOut-purpleTransparent-2{
+        width: 125px;
+    }
+
+    .boxOut-titleAbout {
+        font-size: 18px;
+        margin-bottom: 15px;
+        padding-bottom: 0px;
+    }
+
+    .boxOut-overviewText {
+        max-height: 205px;
+        font-size: 12px;
+    }
+
+    .box-about-45 {
+        padding: 10px 25px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+    .container-padding {
+        padding-top: 188px;
+    }
+
+
+    .boxOut-about-1{
+        height: auto;
+    }
+
+    .boxOut-about-2{
+        height: auto;
+    }
+
+
+    .box-about-55{
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        height: 200px;
+    }
+
+    .box-about-45{
+        width: 100%;
+        float: left;
+        position: relative;
+        min-height: 1px;
+        height: auto;
+    }
+
+    .boxOut-about-1 .boxOut-aboutImg {
+        border-bottom: 7px solid #E62129;
+    }
+
+
+    .boxOut-about-1 .box-about-55 {
+        padding-right: 0px;
+    }
+
+    .boxOut-about-2 .box-about-55 {
+        padding-left: 0px;
+    }
+
+    .boxOut-about-1 .box-about-45 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .boxOut-about-2 .box-about-45 {
+        padding-bottom: 30px
+    }
+
+    .boxOut-purpleTransparent-1{
+        width: 95px;
+    }
+
+    .boxOut-purpleTransparent-2{
+        width: 95px;
+    }
+
+    .boxOut-overviewText{
+        max-height: none;
+        font-size: 12px;
+    }
+
+
+
+
+
+}

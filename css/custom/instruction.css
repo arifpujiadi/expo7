@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 14, 2016, 1:05:54 PM
+    Author     : Arif
+*/
+
+.backgroundContent{
+    background-image: url('../../img/icon/content-background.png');
+    background-size: 100% auto;
+}
+
+.container-padding{
+    padding-top: 40px;
+}
+
+.background-container{
+    background-color: white;
+    padding-top: 150px;
+    padding-bottom: 90px;
+    padding-left: 240px;
+    padding-right: 200px;
+}
+
+.boxOut-instruction{
+    /*    border-left: 3px solid #FFBE7E;*/
+}
+
+.circle-instruction{
+    width: 70px;
+    height: 70px;
+    background-color: #FFCC97;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: -35px;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat:no-repeat;
+    z-index: 1;
+}
+
+.img-instruction-1{
+    background-size: 24px 38px;
+}
+
+.img-instruction-2{
+    background-size: 35px 38px;
+}
+
+.img-instruction-3{
+    background-size: 35px 35px;
+}
+
+
+.box-instruction{
+    padding-left: 75px;
+    padding-bottom: 30px;
+    border-left: 3px solid #FFBE7E;
+}
+
+.boxOut-instruction > .row:last-child .box-instruction{
+    border-left: none;
+}
+
+.boxOut-instructionTitle{
+    color: #114F94;
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+.boxOut-textTitle{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+
+
+
+@media (max-width:1366px) {
+
+    .container-padding{
+        padding-top: 0px;
+    }
+
+}
+
+
+@media (max-width:1200px) {
+
+
+}
+
+@media (max-width:992px) {
+
+    .background-container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+
+}
+
+@media (max-width:768px) {
+
+    .background-container {
+        padding-top: 210px;
+        padding-left: 60px;
+        padding-right: 20px;
+    }
+
+
+}
+
+
