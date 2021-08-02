@@ -7,7 +7,7 @@
         <?php include '_css.php'; ?>
         <link rel="stylesheet" href="../css/download/jquery.bxslider.css">
         <link rel="stylesheet" href="../css/download/bxsliderIndex.css">
-        <link rel="stylesheet" href="../css/custom/index.css">
+        <link rel="stylesheet" href="../css/custom/home.css">
     </head>
     <body class="body-offcanvas">
 
@@ -19,7 +19,7 @@
         <!-- Header -->
         <!--==================================================-->
         <header>
-            <?php include '_headerIndex.php'; ?>
+            <?php include '_headerHome.php'; ?>
         </header>
 
 
